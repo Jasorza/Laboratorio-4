@@ -50,16 +50,21 @@ header{
 	color: #323537;
 }
 
-.bt1, .bt2{
-	float: left;
+.bt1{
 	position: absolute;
-	margin: 20px;
 	width: 80px;
 	height: 40px;
-	
+	top: 150px;
 	text-align: center;
 	background-color: #E4074B;
 }
 
-.
+.bt2{
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	top: 150px;
+	left: 220px;
+	text-align: center;
+	background-color: #E4074B;
 }
