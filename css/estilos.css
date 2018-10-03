@@ -1,0 +1,65 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: black;
+}
+
+#container-fluide{
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	max-width: 2999px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	background-color: ;
+}
+
+header{
+	background-color: white;
+}
+
+.banner{
+	display: block;
+	margin: auto;
+	width: 100%;	
+	max-width: 2999px;
+}
+
+#banner{
+	position: relative;
+}
+
+.container div{
+	position: absolute;
+	top: 200px;
+
+}
+
+.t1{
+	font-size: 55px;
+	color: 
+}
+.t2{
+	font-size: 25px;
+	color: #323537;
+}
+
+.bt1, .bt2{
+	float: left;
+	position: absolute;
+	margin: 20px;
+	width: 80px;
+	height: 40px;
+	
+	text-align: center;
+	background-color: #E4074B;
+}
+
+.
+}
