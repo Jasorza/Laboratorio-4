@@ -27,17 +27,11 @@ header{
 	display: inline;
 }
 
-a{
-	display: inline;
+h1 a{
+	font-size: 15px;
+	color: grey;
 }
 
-h1{
-	display: inline;
-}
-
-#container a{
-	display: inline;
-}
 form{
 	position: absolute;
 	left: 150px;
@@ -51,7 +45,7 @@ li{
 	list-style-type: none;
 }
 
-#name, #apellido, #telefono, #mail, #fecha, #empresa, #tamaño, #repetir, #password{
+#select, #name, #apellido, #telefono, #mail, #fecha, #empresa, #tamaño, #repetir, #password{
 	margin-right: 30px;
 	padding-left: 10px;
 	margin-bottom: 15px;
@@ -59,10 +53,14 @@ li{
 	height: 30px;
 }
 
+em{
+	font-size: 10px;
+}
 
 select{
 	margin-bottom: 20px;
 	width: 150px;
+	height: 40px;
 }
 
 input:focus{
@@ -88,12 +86,12 @@ input:focus{
 
 .bt{
 	margin-left: 10px;
-	padding: 10px; /*espacio alrededor texto*/
-	background-color: #E4074B; /*color botón*/
-	color: #ffffff; /*color texto*/
-	text-decoration: none; /*decoración texto*/
-	text-transform: uppercase; /*capitalización texto*/
- }
+	padding: 10px; 
+	background-color: #E4074B; 
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
 footer{
 	height: 250px;

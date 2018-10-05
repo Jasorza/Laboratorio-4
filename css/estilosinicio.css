@@ -78,14 +78,14 @@ header{
 
 }
 
- footer{
+footer{
  	height: 250px;
  	background-color: black;
  	border-top: solid 10px;
  	border-color: #E4074B;
  }
 
- h2{
+h2{
  	font-size: 35px
  }
 li{
