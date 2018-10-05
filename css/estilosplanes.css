@@ -22,9 +22,43 @@ header{
 	height: 100px;
 }
 
+h1{
+	font-size: 70px;
+}
+.master{
+	padding: 0px;
+
+}
+
+.t1, .t2{
+	padding-top: 30px;
+	text-align: bottom;
+}
 
 
+tr, td{
+	padding: 20px;
+	
+}
+p{
+	color: #E4074B;
+	font-size: 25px;
+}
 
+.botones{
+ 	position: absolute;
+ 	top: 900px;
+ 	left: 1000px;
+ }
+
+.bt{
+	margin-left: 10px;
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #E4074B; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+ }
 
 
 footer{
