@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container-fluide{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#container{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header{
+	height: 100px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+footer{
+	height: 250px;
+	background-color: black;
+	border-top: 10px solid #E4074B;
+}
+
+.txt3 p{
+	color: white;
+	
+}
+.txt3{
+	padding-top: 80px;
+}
+
+.txt3 a{
+	color: white;
+}
