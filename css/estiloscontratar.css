@@ -22,12 +22,78 @@ header{
 	background-color: white;
 }
 
+#container h1{
+	font-size: 45px;
+	display: inline;
+}
+
+a{
+	display: inline;
+}
+
+h1{
+	display: inline;
+}
+
+#container a{
+	display: inline;
+}
+form{
+	position: absolute;
+	left: 150px;
+	width: 60%;
+}
+
+section{
+	margin-bottom: 20px; 
+}
+li{
+	list-style-type: none;
+}
+
+#name, #apellido, #telefono, #mail, #fecha, #empresa, #tamaño, #repetir, #password{
+	margin-right: 30px;
+	padding-left: 10px;
+	margin-bottom: 15px;
+	width: 300px;
+	height: 30px;
+}
 
 
+select{
+	margin-bottom: 20px;
+	width: 150px;
+}
 
+input:focus{
+	border: 3px solid #E4074B;
+	
+}
 
+.caja{
+	color: #E4074B;
+	border: 1px solid;
+	padding: 40px;
+	margin-bottom:  20px;
+}
 
+.title{
+	color: black;
+}
 
+.botones{
+ 	position: absolute;
+ 	top: 1210px;
+ }
+
+.bt{
+	margin-left: 10px;
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #E4074B; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+ }
 
 footer{
 	height: 250px;
