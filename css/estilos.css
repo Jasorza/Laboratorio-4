@@ -1,13 +1,16 @@
 *{
 	padding: 0px;
-	margin: 0px;
+	margin: 0px 0px 0px 0px;
 	font-family: 'Roboto', sans-serif;
 }
+
 body{
-	background-color: black;
+	margin: 0px 0px 0px 0px;
+	background-color: red;
 }
 
 #container-fluide{
+	position: relative;
 	width: 100%;
 	height: 100%;
 	margin: 0px auto;
@@ -17,54 +20,64 @@ body{
 .container{
 	width: 80%;
 	margin: 0 auto;
-	background-color: ;
+	background-color: white;
 }
 
 header{
 	background-color: white;
+	height: 100px;
 }
 
 .banner{
-	display: block;
+	background-image: url(../img/bg-seccion1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: content-box;
+	background-position: center;
 	margin: auto;
-	width: 100%;	
-	max-width: 2999px;
-}
-
-#banner{
-	position: relative;
+	width: 100%;
+	height: 900px;	
 }
 
 .container div{
 	position: absolute;
-	top: 200px;
-
+	top: 300px;
 }
 
 .t1{
-	font-size: 55px;
-	color: 
+	font-size: 70px;
+	color: #323537; 
 }
 .t2{
-	font-size: 25px;
+	font-size: 35px;
 	color: #323537;
 }
 
-.bt1{
+.bonones{
+ 	position: absolute;
+ 	top: 550px;
+ 	left: 150px;
+ }
+
+.bt{
+	margin-left: 10px;
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #E4074B; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+ }
+
+.txt2{
 	position: absolute;
-	width: 80px;
-	height: 40px;
-	top: 150px;
-	text-align: center;
-	background-color: #E4074B;
+	top: 900px;
 }
 
-.bt2{
-	position: absolute;
-	width: 80px;
-	height: 40px;
-	top: 150px;
-	left: 220px;
-	text-align: center;
-	background-color: #E4074B;
-}
+ footer{
+ 	height: 300px;
+ 	background-color: black;
+ 	border-top: solid 10px;
+ 	border-color: #E4074B;
+ }
+
+
