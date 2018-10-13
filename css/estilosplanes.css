@@ -56,8 +56,18 @@ p{
 	background-color: #E4074B; /*color botón*/
 	color: #ffffff; /*color texto*/
 	text-decoration: none; /*decoración texto*/
-	text-transform: uppercase; /*capitalización texto*/
- }
+	text-transform: uppercase; 
+	text-shadow: 1px 1px 1px #000000;
+	border-radius: 8px 8px 8px 8px;
+}
+
+
+.botones a:hover{
+	background-color: #98002E;
+	color: white;
+	box-shadow:inset 3px 3px 10px 1px #6B0022;
+	text-shadow: 1px 2px 4px #5E5E5E;
+}
 
 
 footer{
