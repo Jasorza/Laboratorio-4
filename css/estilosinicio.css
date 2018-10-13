@@ -4,6 +4,12 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+.clear::after{
+	content: "Hola";
+	clear: both;
+	display: block;
+}
+
 #container-fluide{
 	position: relative;
 	width: 100%;
@@ -18,7 +24,7 @@
 }
 
 header{
-	background-color: white;
+	background-color: blue;
 	height: 100px;
 }
 
