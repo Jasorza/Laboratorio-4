@@ -42,12 +42,15 @@ header{
 
 .table{
 	padding-left: 30px;
+	width: 900px;
 	height: 700px;
+	margin: 0 auto;
 }
 
 .master{
-	width: 90%;
+	width: 1200px;
 	padding: 0px;	
+	margin: 0 auto;
 }
 
 .title{
