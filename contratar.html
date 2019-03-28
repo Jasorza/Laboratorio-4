@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Contrate se plan en Big Cloud</title>
 	<link rel="stylesheet" href="css/estiloscontratar.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
+
 <body>
 	<div id="container-fluide">
 		<header>
@@ -17,71 +19,81 @@
 			<div style="height: 2000px; background-color: #E6E8E9">
 				<div id="container">
 					<h1>Contrate se plan en Big Cloud <a href="planes.html">Ver planes</a></h1>
-					<div style="width: 800px; padding-left: 60px; background-color:red;" >
+					<div style="width: 800px; padding-left: 60px; background-color:red;">
 						<form action="contratar_submit" method="get" accept-charset="utf-8">
 							<ul>
 								<li>
 									<fieldset class="caja">
 										<legend><strong>1. Elija su plan</strong></legend>
-											<p class="title">Plan:</p>
-											<select name="plan" id="select">
+										<p class="title">Plan:</p>
+										<select name="plan" id="select">
 											<option value="grautito">Grautito</option>
 											<option value="premium">Premium</option>
 											<option value="profesional">profesional</option>
 										</select>
-									<li>
-										<p class="title">Plan de facturación</p>
-            							<input type="radio" name="facturación" id="radio" value="anual"> Anual
-            							<input type="radio" name="facturación" id="radio" value="Trimestral"> Trimestral
-            							<input type="radio" name="facturación" id="radio" value="mensual"> Mensual
-									</li>
-									</fieldset>
+								<li>
+									<p class="title">Plan de facturación</p>
+									<input type="radio" name="facturación" id="radio" value="anual"> Anual
+									<input type="radio" name="facturación" id="radio" value="Trimestral"> Trimestral
+									<input type="radio" name="facturación" id="radio" value="mensual"> Mensual
+								</li>
+								</fieldset>
 								</li>
 								<li>
-									<fieldset class="caja">	
+									<fieldset class="caja">
 										<p class="ad">Campos obligatorios*</p>
 										<legend><strong>2. Cree una cuenta de administrador</strong></legend>
-										<li>
-											<p class="title">Nombre de usuario:</p>
-											<input type="text" name="name" id="name" placeholder="Ingrese su Nombre" value=""/>
-										</li>
-										<li>
-											<p class="title">Password</p>
-											<input type="password" name="password" placeholder="Ingrese su Contraseña" id="password" value=""/><em>La contraseña debe tener un minimo de 8 caracteres*</em>
-										</li>
-										<li>
-											<p class="title">Repetir la contraseña:</p>
-											<input type="text" name="repetir" id="repetir" placeholder="Confirme su contraseña" value=""/>
-										</li>
-            						</fieldset>
+								<li>
+									<p class="title">Nombre de usuario:</p>
+									<input type="text" name="name" id="name" placeholder="Ingrese su Nombre" value="" />
+								</li>
+								<li>
+									<p class="title">Password</p>
+									<input type="password" name="password" placeholder="Ingrese su Contraseña"
+										id="password" value="" /><em>La contraseña debe tener un minimo de 8
+										caracteres*</em>
+								</li>
+								<li>
+									<p class="title">Repetir la contraseña:</p>
+									<input type="text" name="repetir" id="repetir" placeholder="Confirme su contraseña"
+										value="" />
+								</li>
+								</fieldset>
 								</li>
 								<li>
 									<fieldset class="caja">
 										<p>Campos obligatorios*</p>
 										<legend for="administrador"><strong>3. Datos administrador</strong></legend>
 										<p class="title">Nombre*</p>
-										<input type="text" name="name" id="name" placeholder="Ingrese su Nombre" value="">
+										<input type="text" name="name" id="name" placeholder="Ingrese su Nombre"
+											value="">
 										<p class="title">Apellidos*</p>
-										<input type="text" name="apellido" id="apellido" placeholder="Ingrese sus Apellidos" value="">
+										<input type="text" name="apellido" id="apellido"
+											placeholder="Ingrese sus Apellidos" value="">
 										<p class="title">Telefono</p>
-										<input type="text" name="telefono" id="telefono" placeholder="Ingrese su Numero Telefonico" value="">
+										<input type="text" name="telefono" id="telefono"
+											placeholder="Ingrese su Numero Telefonico" value="">
 										<p class="title">Correo Electronico</p>
-										<input type="text" name="mail" id="mail" placeholder="Ingrese su direccion de Correo" value="">
+										<input type="text" name="mail" id="mail"
+											placeholder="Ingrese su direccion de Correo" value="">
 										<p class="title">Fecha Nacimiento</p>
-										<input type="date" name="fecha" id="fecha" min="2018-03-25"max="2018-05-25" step="2">
+										<input type="date" name="fecha" id="fecha" min="2018-03-25" max="2018-05-25"
+											step="2">
 										<p class="title">Nombre de la Empresa</p>
-										<input type="text" name="empresa" id="empresa" placeholder="Ingrese Nombre" value="">
+										<input type="text" name="empresa" id="empresa" placeholder="Ingrese Nombre"
+											value="">
 										<p class="title">Tamaño de la empresa</p>
-										<select name="tamaño" id="tamaño" placeholder="Escoja un elemento de la lista" >
+										<select name="tamaño" id="tamaño" placeholder="Escoja un elemento de la lista">
 											<option value="menos50">Menos de 50 trabajadores</option>
 											<option value="99trabajadores">50 a 99 Trabajadores </option>
 											<option value="499trabajodores">100 a 499 Trabajadores</option>
 											<option value="mas500">Mas de 500 Trabajodees</option>
 										</select>
 									</fieldset>
-								</li>	
-								
-								<input type="checkbox" name="casilla">Acepto la politica de protección de datos de Big Cloud
+								</li>
+
+								<input type="checkbox" name="casilla">Acepto la politica de protección de datos de Big
+								Cloud
 							</ul>
 							<div class="botones">
 								<a class="bt" href="contratar.html">Contratar</a>
@@ -92,17 +104,23 @@
 			</div>
 		</section>
 		<footer>
-			<div id="container">	
+			<div id="container">
+				<div></div>
 				<div class="txt3">
 					<p>Actividad realizada por José Alejandro Sorza</p>
 					<br>
-					<p>Fotografia de la portada <a href="https://unsplash.com/">Unsplash</a></p>
+					<div>
+						<p class="t">Con el apoyo de:</p>
+						<img class="i" src="img/ViveLab Boyacá logo oficial.png" width="170px">
+					</div>
+					<p>Fotografia de la portada <a href="https://unsplash.com/">Unsplas</a></p>
 				</div>
-				<div> <a href="http://creativecommons.org/licenses/by-sa/4.0/."><img src="img/creative-commons.png" href="" style="padding-top: 10px"></a>
-				</div>
+				<div> <a href="http://creativecommons.org/licenses/by-sa/4.0/.">
+						<img src="img/creative-commons.png" href="" style="padding-top: 10px"></a></div>
 			</div>
 		</footer>
 	</div>
 </body>
+
 </html>
 <!-- /header -->

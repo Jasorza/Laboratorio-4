@@ -107,7 +107,7 @@ input:focus{
 }
 
 footer{
-	height: 250px;
+	height: 350px;
 	background-color: black;
 	border-top: 10px solid #E4074B;
 }
@@ -122,4 +122,8 @@ footer{
 
 .txt3 a{
 	color: white;
+}
+.i{
+	margin-left: 35px;
+	margin-bottom: 10px;
 }

@@ -1,33 +1,33 @@
-*{
-	margin:0px auto;
+* {
+	margin: 0px auto;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-html{
+html {
 	font-family: "Lucida Sans", sans-serif;
 }
 
-#container-fluide{
+#container-fluide {
 	position: relative;
 	width: 100%;
-	height:100%;
-	margin:0px auto;
+	height: 100%;
+	margin: 0px auto;
 
 }
 
-#container{
+#container {
 	position: relative;
 	width: 80%;
-	margin:0px auto;
+	margin: 0px auto;
 }
 
-header{
+header {
 	height: 100px;
 	padding: 12px;
 }
 
-.banner{
+.banner {
 	background-image: url(../img/bg-seccion1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -38,59 +38,63 @@ header{
 	height: 900px;
 }
 
-.txt1{
+.txt1 {
 	position: absolute;
 	top: -600px;
 }
 
-.txt1 h1{
+.txt1 h1 {
 	font-size: 70px;
 	margin-bottom: 50px;
 }
 
-.txt1 p{
+.txt1 p {
 	font-size: 35px;
 }
 
-.txt1 h1:hover{
+.txt1 h1:hover {
 	color: #E4074B;
 	text-shadow: 1px 2px 4px #5E5E5E;
 
 }
 
-.txt1 p:hover{
+.txt1 p:hover {
 	color: #E4074B;
 	text-shadow: 2px 2px #999999;
 	transition-property: color, text-shadow;
 	transition-duration: 0.5s, 0.5s;
-	transition-timing-function: linear, ease-out; 
+	transition-timing-function: linear, ease-out;
 }
 
-.botones{
- 	 position: absolute;
- 	 top: -300px;
+.botones {
+	position: absolute;
+	top: -300px;
 }
 
-.bt{
-	padding: 10px; /*espacio alrededor texto*/
-	background-color: #E4074B; /*color botón*/
-	color: #ffffff; /*color texto*/
-	text-decoration: none; /*decoración texto*/
-	text-transform: uppercase; 
+.bt {
+	padding: 10px;
+	/*espacio alrededor texto*/
+	background-color: #E4074B;
+	/*color botón*/
+	color: #ffffff;
+	/*color texto*/
+	text-decoration: none;
+	/*decoración texto*/
+	text-transform: uppercase;
 	text-shadow: 1px 1px 1px #000000;
 	border-radius: 8px 8px 8px 8px;
 	border: 1.5px solid #85062E;
- }
+}
 
- .botones a:hover{
+.botones a:hover {
 	background-color: #98002E;
 	color: white;
-	box-shadow:inset 3px 3px 10px 1px #6B0022;
+	box-shadow: inset 3px 3px 10px 1px #6B0022;
 	text-shadow: 1px 2px 4px #5E5E5E;
 	border: 1.5px solid #4E021A;
 }
 
-.col-1{
+.col-1 {
 	height: 100%;
 	width: 100%;
 	position: flex;
@@ -99,55 +103,61 @@ header{
 	align-items: center;
 	justify-content: center;
 }
-	
-.img, .txt2 {
+
+.img,
+.txt2 {
 	height: 350px;
 	width: 500px;
 	margin-left: 80px;
 	display: inline-block;
 	margin-bottom: 100px;
 	padding: 20px;
-	margin-top: 100px;	
+	margin-top: 100px;
 }
 
-.img{
+.img {
 	background-image: url(../img/seccion2.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 20px 20px 20px 20px;
-	box-shadow:  	;
 	border: 10px solid white;
 }
 
-.txt2{
+.txt2 {
 	position: absolute;
 }
 
-.txt2 h2{
+.txt2 h2 {
 	margin-top: 50px;
 	margin-bottom: 40px;
 }
 
-.txt2 ul{
+.txt2 ul {
 	margin-left: 20px;
 }
 
-footer{
-	height: 250px;
+footer {
+	height: 350px;
 	background-color: black;
 	border-top: 10px solid #E4074B;
 }
 
-.txt3 p{
+.txt3 p {
 	color: white;
-	
+
 }
-.txt3{
+
+.txt3 {
 	padding-top: 80px;
 }
 
-.txt3 a{
+.txt3 a {
 	color: white;
+}
+
+.i {
+	margin-left: 35px;
+	margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 860px) {
@@ -155,34 +165,33 @@ footer{
 		width: 90%
 	}
 
-	.txt1{
+	.txt1 {
 		top: -850px;
 	}
 
-	.botones{
+	.botones {
 		width: 100%;
 		display: flex;
 		top: -100px;
 	}
 
-	.bt{
+	.bt {
 		width: 100%;
-		text-align: center;	
+		text-align: center;
 	}
 
-	.col-1{
+	.col-1 {
 		width: 100%;
 		height: 600px;
 	}
 
-	.img, .txt2{
-		margin:0 auto;
+	.img,
+	.txt2 {
+		margin: 0 auto;
 		width: 100%
 	}
 
-	.img{
+	.img {
 		margin-top: 20px;
 	}
 }
-
-
